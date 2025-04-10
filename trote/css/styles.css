@@ -6,7 +6,7 @@ body {
     text-align: center;
 }
 header{
-    background: #28a745;
+    background: black;
     color: white;
     /* espaçamento interno 15px acim e abaixo, e 0px esquerda e direta*/
     padding: 15px 0; 
@@ -14,7 +14,7 @@ header{
 }
 
 nav {
-    background-color: #007bff;
+    background-color: rgb(46, 45, 45);
     padding: 10px;
     display: flex; /* Flex Boxing */
     /* alinhamento na horizontal - espaço entre os links */
@@ -30,9 +30,9 @@ nav {
 nav a {
     color: white; /* texto branco */
     text-decoration: none; /* não faz decoração no link */
-    padding: 10px 15px; /* 10px é acima e abaixo 15px é esq e dir */
-    font-size: 18px; /* 18px de tamanho da fonte */
-    background: #005663; /* cor de fundo */
+    padding: 10px 20px; /* 10px é acima e abaixo 15px é esq e dir */
+    font-size: 15px; /* 18px de tamanho da fonte */
+    background: black; /* cor de fundo */
     border-radius: 5px; /* borda com canto arredondado */
 }
 nav a:hover {
@@ -91,4 +91,17 @@ table {
 }
 .campos {
     margin: 20px;
+}
+
+.negrito {
+    font-weight: 900;
+    font-size: 1.5rem
+}
+.negrito1 {
+    font-weight: 650;
+    font-size: 1.3rem
+}
+.titulo {
+    font-weight: 1200;
+    font-size: 3.0rem
 }
